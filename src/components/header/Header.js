@@ -36,7 +36,7 @@ class Header extends Component {
               <span className="navicon"></span>
             </label>
             <ul className="menu" style={{ backgroundColor: theme.body }}>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/home"
                   tag={Link}
@@ -47,8 +47,8 @@ class Header extends Component {
                 >
                   Home
                 </NavLink>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <NavLink
                   to="/education"
                   tag={Link}
@@ -71,7 +71,7 @@ class Header extends Component {
                 >
                   Experience
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/projects"
@@ -84,7 +84,7 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/opensource"
                   tag={Link}
@@ -95,7 +95,7 @@ class Header extends Component {
                 >
                   Open Source
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/contact"
@@ -105,7 +105,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Contact Me
+                  Contact
                 </NavLink>
               </li>
             </ul>

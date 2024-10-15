@@ -195,4 +195,18 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = blueTheme;
+export const weronikaTheme = {
+  body: "#08032F",
+  text: "#FFFFFF",
+  expTxtColor: "#000000",
+  highlight: "#18098C",
+  dark: "#1F0BB1",
+  secondaryText: "#BABABA",
+  imageHighlight: "#BFB7FA",
+  compImgHighlight: "#BABABA",
+  jacketColor: "#1E0BAB",
+  headerColor: "#18098C",
+  splashBg: "#05505E",
+};
+
+export const chosenTheme = weronikaTheme;
