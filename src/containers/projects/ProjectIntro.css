@@ -1,0 +1,102 @@
+.main {
+  width: 90%;
+  padding: 0px 0px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+.greet-main {
+  width: 90%;
+  padding: 8px 0x;
+  margin: 0px auto;
+  margin-top: 0rem;
+}
+
+.gretting-main {
+  width: 90%;
+  padding: 8px 0x;
+  margin: 0px auto;
+}
+
+.greeting-main {
+  display: flex;
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin: auto;
+}
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.greeting-text {
+  /* margin-top: 80px; */
+  font-size: 64px;
+  line-height: 1;
+  font-family: "Google Sans Bold";
+}
+
+.greeting-nickname {
+  font-size: 32px;
+  line-height: 12px;
+  font-family: "Google Sans Bold";
+}
+
+.greeting-text-p {
+  font-size: 24px;
+  line-height: 32px;
+  margin-right: 64px;
+  font-family: "Google Sans Medium";
+}
+
+.greeting-image-div > * {
+  max-width: 100%;
+  /* height: auto; */
+  align-self: right;
+  margin-top: 3em;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 32px;
+    margin-top: 0px;
+    text-align: left;
+  }
+  .greeting-nickname {
+    font-size: 24px;
+    text-align: left;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: left;
+  }
+  .greeting-main {
+    display: block;
+  }
+
+  .portfolio-repo-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -7,6 +7,8 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import Skills from "../../containers/skills/Skills";
+// import ProjectIntro from "../../containers/projects/projectIntro1.js";
 
 // const experience = {
 // 	title: "Experience",
@@ -149,7 +151,9 @@ class Experience extends Component {
     const theme = this.props.theme;
     return (
       <div className="experience-main">
+        {/* <Greeting theme={theme} /> */}
         <Header theme={theme} />
+        <Skills theme={theme} />
         <div className="basic-experience">
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">

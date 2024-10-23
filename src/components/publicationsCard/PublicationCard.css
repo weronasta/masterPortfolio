@@ -7,7 +7,7 @@
   flex: 1 1 25%;
 }
 .publication-card-div:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  box-shadow: rgba(115, 42, 225, 0.2) 0px 20px 30px -10px;
 }
 
 .publication-name-div {
@@ -22,7 +22,7 @@
   margin-bottom: 0.75rem;
   font-size: 25px;
   font-weight: 700;
-  letter-spacing: -0.5px;
+  /* letter-spacing: -0.5px; */
   overflow: hidden;
   line-height: 1.2;
   margin: 0px;

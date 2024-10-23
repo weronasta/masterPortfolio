@@ -25,7 +25,19 @@ const greeting = {
   subTitle:
     "My superpower is blending analytical thinking with empathy to create remarkable user-centered solutions.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
+    "https://drive.google.com/file/d/1uVrhzzJPcs7zkcNtegdiRdxP21Hvqtg3/view?usp=sharing",
+  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  githubProfile: "https://github.com/ashutosh1919",
+};
+
+const projectIntro1 = {
+  title: "Wellbeing Score",
+  logo_name: "Examine your wellbeing with MultiLife",
+  nickname: "Project overview",
+  subTitle:
+    "Wellbeing Score, developed in collaboration with infuture.institute under the supervision of Natalia Hatalska, helps users assess their wellbeing and receive personalized advice across six areas. Available as an anonymous online survey and within the MultiLife platform, it also offers wellbeing tracking features. Over 70,000 people have completed the survey so far.",
+  resumeLink:
+    "https://drive.google.com/file/d/1uVrhzzJPcs7zkcNtegdiRdxP21Hvqtg3/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/ashutosh1919",
 };
@@ -41,46 +53,22 @@ const socialMediaLinks = [
   // instagram: "https://www.instagram.com/layman_brother/"
 
   {
-    name: "Github",
-    link: "https://github.com/ashutosh1919",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
-  {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/weronika-stachurska/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
-    name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
+    name: "Behance",
+    link: "https://www.behance.net/weronikstachur",
+    fontAwesomeIcon: "fa-behance", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
   {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    name: "Gmail",
+    link: "mailto:weronasta@gmail.com",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
 ];
 
@@ -94,42 +82,7 @@ const skills = {
         "⚡ Experience of working with Computer Vision and NLP projects",
         "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
       ],
-      softwareSkills: [
-        // {
-        //   skillName: "Tensorflow",
-        //   fontAwesomeClassname: "logos-tensorflow",
-        //   style: {
-        //     backgroundColor: "transparent",
-        //   },
-        // },
-        // {
-        //   skillName: "Keras",
-        //   fontAwesomeClassname: "simple-icons:keras",
-        //   style: {
-        //     backgroundColor: "white",
-        //     color: "#D00000",
-        //   },
-        // },
-        // {
-        //   skillName: "PyTorch",
-        //   fontAwesomeClassname: "logos-pytorch",
-        //   style: {
-        //     backgroundColor: "transparent",
-        //   },
-        // },
-        // {
-        //   skillName: "Python",
-        //   fontAwesomeClassname: "ion-logo-python",
-        //   style: {
-        //     backgroundColor: "transparent",
-        //     color: "#3776AB",
-        //   },
-        // },
-        // {
-        //   skillName: "Deeplearning",
-        //   imageSrc: "deeplearning_ai_logo.png",
-        // },
-      ],
+      softwareSkills: [],
     },
     {
       title: "Full Stack Development",
@@ -139,79 +92,7 @@ const skills = {
         "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
         "⚡ Creating application backend in Node, Express & Flask",
       ],
-      softwareSkills: [
-        // {
-        //   skillName: "HTML5",
-        //   fontAwesomeClassname: "simple-icons:html5",
-        //   style: {
-        //     color: "#E34F26",
-        //   },
-        // },
-        // {
-        //   skillName: "CSS3",
-        //   fontAwesomeClassname: "fa-css3",
-        //   style: {
-        //     color: "#1572B6",
-        //   },
-        // },
-        // {
-        //   skillName: "Sass",
-        //   fontAwesomeClassname: "simple-icons:sass",
-        //   style: {
-        //     color: "#CC6699",
-        //   },
-        // },
-        // {
-        //   skillName: "JavaScript",
-        //   fontAwesomeClassname: "simple-icons:javascript",
-        //   style: {
-        //     backgroundColor: "#000000",
-        //     color: "#F7DF1E",
-        //   },
-        // },
-        // {
-        //   skillName: "ReactJS",
-        //   fontAwesomeClassname: "simple-icons:react",
-        //   style: {
-        //     color: "#61DAFB",
-        //   },
-        // },
-        // {
-        //   skillName: "NodeJS",
-        //   fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-        //   style: {
-        //     color: "#339933",
-        //   },
-        // },
-        // {
-        //   skillName: "NPM",
-        //   fontAwesomeClassname: "simple-icons:npm",
-        //   style: {
-        //     color: "#CB3837",
-        //   },
-        // },
-        // {
-        //   skillName: "Yarn",
-        //   fontAwesomeClassname: "simple-icons:yarn",
-        //   style: {
-        //     color: "#2C8EBB",
-        //   },
-        // },
-        // {
-        //   skillName: "Gatsby",
-        //   fontAwesomeClassname: "simple-icons:gatsby",
-        //   style: {
-        //     color: "#663399",
-        //   },
-        // },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
-      ],
+      softwareSkills: [],
     },
     {
       title: "Learning music harmony in virtual reality",
@@ -222,104 +103,149 @@ const skills = {
         "⚡ Deploying deep learning models on cloud to use on mobile devices",
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
-      softwareSkills: [
-        // {
-        //   skillName: "GCP",
-        //   fontAwesomeClassname: "simple-icons:googlecloud",
-        //   style: {
-        //     color: "#4285F4",
-        //   },
-        // },
-        // {
-        //   skillName: "AWS",
-        //   fontAwesomeClassname: "simple-icons:amazonaws",
-        //   style: {
-        //     color: "#FF9900",
-        //   },
-        // },
-        // {
-        //   skillName: "Azure",
-        //   fontAwesomeClassname: "simple-icons:microsoftazure",
-        //   style: {
-        //     color: "#0089D6",
-        //   },
-        // },
-        // {
-        //   skillName: "Firebase",
-        //   fontAwesomeClassname: "simple-icons:firebase",
-        //   style: {
-        //     color: "#FFCA28",
-        //   },
-        // },
-        // {
-        //   skillName: "PostgreSQL",
-        //   fontAwesomeClassname: "simple-icons:postgresql",
-        //   style: {
-        //     color: "#336791",
-        //   },
-        // },
-        // {
-        //   skillName: "MongoDB",
-        //   fontAwesomeClassname: "simple-icons:mongodb",
-        //   style: {
-        //     color: "#47A248",
-        //   },
-        // },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
-        // {
-        //   skillName: "Kubernetes",
-        //   fontAwesomeClassname: "simple-icons:kubernetes",
-        //   style: {
-        //     color: "#326CE5",
-        //   },
-        // },
-      ],
+      softwareSkills: [],
     },
-    // {
-    //   title: "UI/UX Design",
-    //   fileName: "DesignImg",
-    //   skills: [
-    //     "⚡ Designing highly attractive user interface for mobile and web applications",
-    //     "⚡ Customizing logo designs and building logos from scratch",
-    //     "⚡ Creating the flow of application functionalities to optimize user experience",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Adobe XD",
-    //       fontAwesomeClassname: "simple-icons:adobexd",
-    //       style: {
-    //         color: "#FF2BC2",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Figma",
-    //       fontAwesomeClassname: "simple-icons:figma",
-    //       style: {
-    //         color: "#F24E1E",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Adobe Illustrator",
-    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
-    //       style: {
-    //         color: "#FF7C00",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Inkscape",
-    //       fontAwesomeClassname: "simple-icons:inkscape",
-    //       style: {
-    //         color: "#000000",
-    //       },
-    //     },
-    //   ],
-    // },
+  ],
+};
+
+const wbs = {
+  title: "Wellbeing Score",
+  logo_name: "Examine your wellbeing with MultiLife",
+  nickname: "Project overview",
+  subTitle:
+    "Wellbeing Score, developed in collaboration with infuture.institute under the supervision of Natalia Hatalska, helps users assess their wellbeing and receive personalized advice across six areas. Available as an anonymous online survey and within the MultiLife platform, it also offers wellbeing tracking features. Over 70,000 people have completed the survey so far.",
+  myRole:
+    "As a product designer, I was responsible for designing the user flow in MultiLife platform and wireframes of the results page and I helped with online survey tool. I ensured the designs met business needs by iterating on feedback from key stakeholders and checked if they were user-friendly by conducting usability tests.",
+  projectHeader: "Design process",
+  imgpath: "wbs1.png",
+  resumeLink:
+    "https://drive.google.com/file/d/1uVrhzzJPcs7zkcNtegdiRdxP21Hvqtg3/view?usp=sharing",
+  data: [
+    {
+      title: "Discovery and benchmarking",
+      fileName: "DataScienceImg",
+      skills: [
+        "Have you ever considered what wellbeing means to you? What helps you improve your wellbeing? Infuture.institute has conducted an in-depth research by asking this and other questions to a representative sample of the Polish population and published the results in “Wellbeing in the Polish population” report (https://www.multilife.com.pl/docs/raport_o_dobrostanie.pdf). After carefully reading the report and talking with my peers from the Wellbeing team I managed to gain deep understanding of the Wellbeing Score tool, which helped me at later stages of the process. I have also analysed different survey tools and dashboards to gather inspiration and create a benchmark for further designs.",
+      ],
+      imagePath: "wbs2.png",
+      right: true,
+    },
+    {
+      title: "User flow and user stories",
+      fileName: "FullStackImg",
+      skills: [
+        "This project had two different types of users: anonymous online users and MultiLife app users. They both have their unique needs and goals, which meant I had to prepare user flows and stories  separately for each group. This step helped me visualise how each user would navigate through the tool to achieve their specific objectives.",
+      ],
+      imagePath: "wbs3.png",
+      right: false,
+    },
+    {
+      title: "First wireframes and iterating on feedback from stakeholders",
+      fileName: "CloudInfraImg",
+      skills: [
+        "The main challenge of this project was how to present the survey results. There are many ways to visualize data, so I had experimented with different chart types and page layouts. Throughout this process, I collaborated closely with developers to understand the technical constraints and with key stakeholders to ensure my ideas aligned with the business requirements. I began with low-fidelity wireframes and my designs became more complex as I iterated on them.",
+      ],
+      imagePath: "wbs4.png",
+      right: true,
+    },
+    {
+      title: "Prototypes and usability tests and iterating on users’ feedback",
+      fileName: "CloudInfraImg",
+      skills: [
+        "Together with another product designer, I prepared interactive prototypes of the survey and results page. We conducted 8 usability test sessions (4 on desktop and 4 on mobile devices). I participated in all of them—half as a moderator and the other half as an observer. While participants were impressed and we received a lot of positive feedback, we also identified a few minor usability issues, which we addressed by improving the designs.",
+      ],
+      imagePath: "wbs5.png",
+      right: false,
+    },
+    {
+      title: "Final designs",
+      fileName: "CloudInfraImg",
+      skills: [
+        "The final step in the process involved creating pixel-perfect mockups in line with the design system. These mockups were prepared for various screen sizes, including desktop big, desktop small, tablet, mobile, and native iOS and Android applications, ensuring responsiveness across all platforms.",
+      ],
+      imagePath: "wbs6.png",
+      right: true,
+    },
+    {
+      title: "Impact",
+      fileName: "CloudInfraImg",
+      skills: [
+        "People from infuture.institute, who worked on the Wellbeing Score tool, were impressed by the designs, mentioning that they had never imagined the survey results could be presented in such an interesting way. Additionally, the online survey has been completed over 70,000 times, with many users eager to share their results, including the radar chart, on social media—even without an official paid partnership with Benefit Systems. ",
+      ],
+      imagePath: "wbs7.png",
+      right: false,
+    },
+    {
+      imagePath: "wbs8.png",
+      noText: true,
+    },
+  ],
+};
+
+const dashboard = {
+  title: "MultiLife HR Dashboard",
+  logo_name: "Examine your wellbeing with MultiLife",
+  nickname: "Project overview",
+  subTitle:
+    'MultiLife, a wellbeing platform, collects data on user activity and wellbeing scores, which can be analyzed to assess the overall wellbeing of a company and its employees’ preferences. Our team developed the "Company results" feature, a dashboard that allows HR teams from client companies to track how their employees use the app and evaluate trends in wellbeing.',
+  myRole:
+    "I was the sole product designer responsible for this project, actively involved in every stage of the design process, from gathering requirements to creating the final designs.",
+  projectHeader: "Design process",
+  imgpath: "hr1.png",
+  resumeLink:
+    "https://drive.google.com/file/d/1uVrhzzJPcs7zkcNtegdiRdxP21Hvqtg3/view?usp=sharing",
+  data: [
+    {
+      title: "Gathering and analyzing requirements",
+      fileName: "DesignImg",
+      skills: [
+        "The biggest challenge was balancing the technical constraints of the relatively new MultiLife platform with the differing needs of internal stakeholders and client expectations. I had to thoroughly assess what data was being collected and what could be visualized on the dashboard. I also collaborated closely with the sales team to ensure that the specific business requirements aligned with the clients needs. This phase required careful negotiation and compromise to ensure all parties' needs were addressed.",
+      ],
+      imagePath: "hr2.png",
+    },
+    {
+      title: "First iteration of wireframes and quick tests with HR employees",
+      fileName: "DesignImg",
+      skills: [
+        "Once I had aligned with stakeholders, I created user stories and moved into low-fidelity wireframes. I presented these wireframes to HR representatives from our own company to validate the direction of the design. These sessions were extremely insightful and led to several design adjustments, ensuring the solution met real HR needs.",
+      ],
+      imagePath: "hr3.png",
+      right: true,
+    },
+    {
+      title: "Collaboration with legal team.",
+      fileName: "DesignImg",
+      skills: [
+        "While developing high-fidelity wireframes, I collaborated closely with the legal team to ensure the anonymity of user data. For instance, I designed an empty state for the dashboard to prevent HR teams from identifying individual users, when the wellbeing score survey has very few responses. This step was critical in maintaining user trust and data privacy compliance.",
+      ],
+      imagePath: "hr4.png",
+    },
+    {
+      title: "Constant feedback and improvements",
+      fileName: "DesignImg",
+      skills: [
+        "This project is ongoing and evolves alongside the MultiLife product. As we add new features for users and enhance our analytics infrastructure, new possibilities emerge for the HR dashboard. Future iterations and improvements to the designs are heavily influenced by the feedback from our clients, gathered by the sales team.",
+      ],
+      imagePath: "hr5.png",
+      right: true,
+    },
+    {
+      title: "Impact",
+      fileName: "DesignImg",
+      skills: [
+        "Our clients now have measurable evidence of MultiLife's impact on their employees' wellbeing, which helps justify the platform's value.",
+        "HR teams are empowered to better plan their company's wellbeing strategy based on a deeper understanding of employee preferences and engagement trends.",
+      ],
+      imagePath: "hr6.png",
+    },
+    {
+      imagePath: "hr7.png",
+      noText: true,
+    },
+    {
+      imagePath: "hr8.png",
+      noText: true,
+    },
   ],
 };
 
@@ -523,10 +449,10 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  title: "How to measure wellbeing?",
+  subtitle: "Wellbeing Score: project overview",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "Wellbeing Score is a research tool that was developed in collaboration with infuture.institute under the supervision of Natalia Hatalska. It allows users to assess their wellbeing through an anonymous online survey and receive personalised expert advice for improving and maintaining a higher quality of life. The tool is also integrated into the MultiLife platform, offering users a seamless experience in tracking and enhancing their wellbeing. More than 70000 people have already filled out the survey",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -684,15 +610,16 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Commercial projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "A showcase of real-world projects I’ve worked on to create user-centered designs that solve problems and drive results.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
+  description:
+    "Explore my scientific papers focused on virtual reality and user-centered design.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -700,24 +627,50 @@ const publications = {
   data: [
     {
       id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
+      name:
+        "Virtual Reality in Music Education: A Qualitative User Study of HarmosphereVR",
+      createdAt: "2024-06-04T00:00:00Z",
+      description:
+        "RealXR workshop co-located with 17th International Conference on Advanced Visual Interfaces",
+      url:
+        "https://www.researchgate.net/publication/381305295_Virtual_Reality_in_Music_Education_A_Qualitative_User_Study_of_HarmosphereVR",
     },
     {
       id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
+      name:
+        "Harmosphere VR: Enhancing Harmonic Learning in Music Schools Through Virtual Reality",
+      createdAt: "2024-05-04T00:00:00Z",
+      description:
+        "Proceedings of the 16th International Conference on Computer Supported Education",
+      url:
+        "https://www.researchgate.net/publication/380386976_Harmosphere_VR_Enhancing_Harmonic_Learning_in_Music_Schools_Through_Virtual_Reality",
+    },
+    // {
+    //   id: "consistency-models",
+    //   name: "Consistency Models",
+    //   createdAt: "2023-10-12T00:00:00Z",
+    //   description: "Blog published in Paperspace",
+    //   url: "https://blog.paperspace.com/consistency-models/",
+    // },
+  ],
+};
+
+const projects = {
+  data: [
+    {
+      id: "wbs",
+      name: "Wellbeing Score",
+      createdAt: "Benefit Systems, 2024",
+      description: "Examine your wellbeing with Benefit Systems",
+      link: "/wbs",
     },
     {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
+      id: "dashboard",
+      name: "HR Dashboard",
+      createdAt: "Benefit Systems, 2024",
+      description:
+        "Take care of the company's wellbeing with the MultiLife analytical dashboard for HR employees",
+      link: "/dashboard",
     },
   ],
 };
@@ -726,9 +679,9 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "contact.svg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I'm always open to discussing new ideas, collaborations, or simply chatting about design. Feel free to reach out – I’d love to hear from you!",
   },
   blogSection: {
     title: "Blogs",
@@ -768,4 +721,8 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  projectIntro1,
+  projects,
+  wbs,
+  dashboard,
 };

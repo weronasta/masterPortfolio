@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import { skills } from "../../portfolio";
-import { Fade } from "react-reveal";
+// import { skills } from "../../portfolio";
+// import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
@@ -21,31 +21,27 @@ function GetSkillSvg(props) {
 class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
+    const data = this.props.data;
     return (
       <div>
-        {skills.data.map((skill, i) => {
+        {data.data.map((skill, i) => {
           return (
             <div key={i} className="skills-main-div">
-              <Fade left duration={1000}>
+              {!skill.right && (
                 <div className="skills-image-div">
-                  {/* <img
-                    alt="Ashutosh is Analysing Data"
-                    src={require(`../../assets/images/${skill.imagePath}`)}
-                  ></img> */}
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  <img
+                    alt="skill-img"
+                    src={require(`../../assets/images/${
+                      skill.imagePath ? skill.imagePath : "gcp_logo.png"
+                    }`)}
+                  ></img>
                 </div>
-              </Fade>
-
-              <div className="skills-text-div">
-                <Fade right duration={1000}>
+              )}
+              {!skill.noText && (
+                <div className="skills-text-div">
                   <h1 className="skills-heading" style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
-                </Fade>
-                <Fade right duration={1000}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
-                </Fade>
-                <Fade right duration={1000}>
                   <div>
                     {skill.skills.map((skillSentence, i) => {
                       return (
@@ -59,9 +55,19 @@ class SkillSection extends Component {
                       );
                     })}
                   </div>
-                </Fade>
-              </div>
-              
+                </div>
+              )}
+
+              {skill.right && (
+                <div className="skills-image-div">
+                  <img
+                    alt="skill-img"
+                    src={require(`../../assets/images/${
+                      skill.imagePath ? skill.imagePath : "gcp_logo.png"
+                    }`)}
+                  ></img>
+                </div>
+              )}
             </div>
           );
         })}

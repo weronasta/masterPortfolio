@@ -2,13 +2,11 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 4rem;
 }
 .greet-main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
 }
 
 .gretting-main {
@@ -19,19 +17,21 @@
 
 .greeting-main {
   display: flex;
+  margin-top: 2%;
 }
 
 .greeting-main > * {
   flex: 1;
   margin-bottom: 30px;
 }
+
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
 }
 
 .greeting-text {
-  margin-top: 80px;
+  /* margin-top: 80px; */
   font-size: 64px;
   line-height: 1;
   font-family: "Google Sans Bold";
@@ -51,8 +51,8 @@
 }
 
 .greeting-image-div > * {
-  max-width: 80%;
-  height: auto;
+  max-width: 100%;
+  align-items: right;
 }
 
 /* Media Query */
